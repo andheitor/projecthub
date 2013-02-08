@@ -1,0 +1,19 @@
+<div class="site">
+	<div class="span5">
+		<% @projects.each do |project| %>
+		<div class="project">		
+	    <h3 class="projectTitle"><%= project.title %></h3>
+	    <p class="projectDescription"><%= project.description %></p>
+		</div>
+		<% end %>
+		</table>
+	</div>
+	<div class="span5">
+		<% @people.each do |person| %>
+			<div class="person">
+				<%= image_tag person.avatar, :size => "60x60" %>
+				<%= person.name %>
+			</div>		
+		<% end %>
+	</div>
+</div>

@@ -1,0 +1,17 @@
+.person{	
+	width: 60px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid;
+	padding: 3px;
+	margin: 5px;
+	float: left;
+}
+
+.project{	
+	cursor: pointer;
+	border: 1px solid;
+	padding: 3px;
+	margin: 5px;
+	float: left;
+}
